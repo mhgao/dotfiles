@@ -7,6 +7,7 @@ source ~/.git-prompt.sh
 # formats command prompt
 export PS1="martin$(__git_ps1 "(%s)")$ "
 
+alias tmux="TERM=screen-256color-bce tmux"
 alias vim="nvim"
 alias halligan="ssh mgao01@homework.cs.tufts.edu"
 alias ..="cd .."
